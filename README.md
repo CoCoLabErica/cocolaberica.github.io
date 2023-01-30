@@ -1,37 +1,36 @@
 Hello World
 ================
-Last update: 2023-01-24
-
-## What is this?
+Last update: 2023-01-30
 
 This is a prototype (first version) of my knowledge website or technical
 blog for organising and sharing knowledge about technology, education
 and research.
 
-## What will I share here?
+## Things to share
 
 ### My computational methods and data science approach
 
 I collect social media data from Twitter, Reddit, YouTube, etc. and I
-will share things related to data science and computational analysis
-here :-)
+will post things related to data science and computational analysis
+here.
 
 The first one is
 <a href="https://cocolaberica.github.io/ascilite22.html"
 target="_blank">my quick tweet analysis for ASCILITE 2022 conference</a>.
 
-I also plan to share my notes on R programming, how to run Python
-scripts in the R Studio IDE, how to setup Git and GitHub, etc.
+I also share my code for computerized text analysis methods, e.g.,
+<a href="https://github.com/CoCoLabErica/LIWC2015" target="_blank">my
+implementation of LIWC2015 (Linguistic Inquiry and Word Count)</a>.
 
 ### Non-technical resources for teachers and researchers
 
-I write and share things related to technology and education, such as <a
+I write articles about technology and education, such as <a
 href="https://educational-innovation.sydney.edu.au/teaching@sydney/what-teachers-and-students-should-know-about-ai-in-2023/"
 target="_blank">some important concepts about current AI technology like
 ChatGPT</a>.
 
 I also like to find and test interesting things that can be embedded and
-shown in a webpage for teaching and learning, such as online 3D models
+shown in a webpage for teaching and learning, e.g., online 3D models
 viewers, useful HTML & CSS effects, and online code editors.
 
 These ideas and resources do not require any technical knowledge or
@@ -41,17 +40,21 @@ and show the objects in a website or LMS).
 target="_blank">Here is my playground</a> for quick testing and
 demonstration.
 
-## How did I create this?
+## What else?
 
-This is a GitHub Flavored Markdown (a ReadMe file) converted from an R
-Markdown, which can embed R code chunks (blocks of runnable code) within
-the document. Just a simple code testing:
+This is a GitHub Flavored Markdown converted from an R Markdown, which
+can embed R code chunks (blocks of runnable code) within the document.
+Just a simple code testing:
 
 ``` r
-print("Hello World!")
+x <- "Let's break  this sample text into words   so that the text can be analysed"
+strsplit(x, split=" +") # split at whitespace
 ```
 
-    ## [1] "Hello World!"
+    ## [[1]]
+    ##  [1] "Let's"    "break"    "this"     "sample"   "text"     "into"    
+    ##  [7] "words"    "so"       "that"     "the"      "text"     "can"     
+    ## [13] "be"       "analysed"
 
 Showing code chunks with output will enable me to share how to do coding
 stuff when I talk about technical things.
@@ -62,8 +65,7 @@ and then push this to
 target="_blank">my github.io public repository</a> - free and easy.
 Visit
 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> to
-learn how to host a webpage or blog on GitHub. And I will give a more
-detailed explanation later.
+learn how to host a webpage or blog on GitHub.
 
 ------------------------------------------------------------------------
 
