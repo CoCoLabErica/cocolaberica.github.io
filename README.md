@@ -1,12 +1,20 @@
 Hello World
 ================
-Last update: 2023-01-30
+Last update: 2024-04-06
 
 This is a prototype (first version) of my knowledge website or technical
 blog for organising and sharing knowledge about technology, education
 and research.
 
 ## Things to share
+
+### Academic writing in R Markdown: A quick start guide
+
+<a
+href="https://docs.google.com/document/d/1SnHqZ_aLyog7oTKQciTlyt4eNtAA-fOAylwiQl-m2GE/edit?usp=sharing"
+target="_blank">Getting started with academic writing in R Markdown</a>
+is a quick start guide for researchers who want to spend their time on
+writing the manuscript rather than formatting and citations.
 
 ### My computational methods and data science approach
 
