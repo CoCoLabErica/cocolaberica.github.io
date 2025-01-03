@@ -20,13 +20,13 @@ writing the manuscript rather than formatting and citations.
 R is a popular choice for data science and research, with R packages
 offering powerful tools for data analysis and visualisation. For
 example, I can perform
-<a href="https://cocolaberica.github.io/ascilite22.html"
-target="_blank">a quick tweet analysis for ASCILITE 2022 conference</a>.
+<a href="https://cocolaberica.github.io/ascilite22" target="_blank">a
+quick tweet analysis for ASCILITE 2022 conference</a>.
 
 For easy reference to all 657 built-in colours for plots and
 visualisations in R, I generated an
-<a href="https://cocolaberica.github.io/rcolortable.html"
-target="_blank">R color table</a>.
+<a href="https://cocolaberica.github.io/rcolortable" target="_blank">R
+color table</a>.
 
 I use computational methods to process the large volumes of data
 collected from social media, and here is
